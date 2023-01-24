@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400&family=Montserrat&display=swap');
+.warehouse {
+    padding: 0px 68px 0px 68px;
+}
+.warehouse-heading{
+    color: #000000;
+    width: 121px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Baloo 2', cursive;
+}
+.home {
+   font-size: 11px;
+   color: #9C9C9C;
+   font-family: 'Baloo 2', cursive;
+}
+.owerview {
+    color: #5600E8;
+    font-family: 'Baloo 2', cursive;
+}
+.btn-group {
+    width: 313px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Baloo 2', cursive;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 5px 3px rgba(205, 214, 243, 0.25);
+    
+}
+.btn {
+    outline:none;
+    padding: 3px;
+    font-size: 12px;
+}
+.btn span {
+    width:312px;
+    padding: 0px;
+    height: 0px;
+}
+
+
+.flag-image {
+    width: 19px;
+    height: 19px;
+    left: 7.35%;
+    right: 86.58%;
+    top: 27.5%;
+    bottom: 25%;
+}
+
+/*
+Short Menu
+*/
+
+.short-menu {
+    gap: 24px;
+    margin-top: 38px;
+    padding-left: 80px;
+}
+
+.short-menu-content{
+    width: 148px;
+    height: 148px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px 3px rgba(205, 214, 243, 0.25);
+    border-radius: 15px;
+}
+
+.short-menu-content .generate-one{
+    width: 125px;
+    height: 18px;
+    padding: 14px 13px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.generate-svg svg{
+    vertical-align: middle;
+    height: 80px;
+}
+
+.short-menu-content .generate-two  {
+    text-align: center;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    color: #9C9C9C;
+
+}
+/* Short Menu End */
+
+
+/* Transits Heading Start */
+.transits {
+    padding-left: 100px!important;
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+
+
+.transits-heading {
+    width: 222px;
+    height: 31px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+   
+}
+/* Transits Heading End */
+
+
+/* Transits Content Start */
+
+.transits-content {
+box-sizing: border-box;
+padding: 24px 29px 25px 24px;
+height: 154px;
+gap: 35px;
+background: #FFFFFF;
+box-shadow: 3px 3px 10px 3px rgba(205, 214, 243, 0.25);
+border-radius: 13px;
+}
+
+.transits-content .transits-items{
+    width: 285px;
+    height: 105px;
+    padding: 15px 17px;
+    background: #F5F6FA;
+    border-radius: 15px;
+    }
+
+.transits-items .expected-items {
+    width: 170px;
+    height: 22px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #313131;
+    text-align: start;   
+
+}
+
+.transits-items .expected-items-percent{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #313131;
+}
+.transits-items .expected-items-percent span{
+    width: 47px;
+    height: 19px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #313131;
+}
+.transits-items .expected-items-value{
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 19px;
+    color: #313131;
+
+}
+
+.transits-items .expected-items-value span {
+    width: 47px;
+    height: 19px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    color: #313131;
+}
+/* Transits Content End */
+
+
+/* Filters Heading Start */
+.filters {
+    padding: 0px 68px 0px 68px;
+    margin-top: 18px;
+    margin-bottom: 7px;
+}
+
+
+.filters-heading {
+    width: 222px;
+    height: 31px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+}
+/* Filters Heading End */
+
+/* Filters Content Start */
+
+.table > :not(:first-child) {
+    border-top: 0;
+}
+
+
+
+.filters-table{
+    margin: 0px 60px;
+    padding: 8px;
+    background: #FFFFFF;
+    box-shadow: 3px 3px 10px 3px rgba(205, 214, 243, 0.25);
+    border-radius: 13px 13px 0px 0px;
+}
+
+#filters-search {
+    box-sizing: border-box;
+    width: 616px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #F5F6FA;
+    border-radius: 10px;
+    }
+
+ #filters-search::placeholder{
+    width: 132px;
+    height: 18px;
+    font-family: 'Baloo 2';
+    padding-left: 29px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #313131;
+    vertical-align: middle;
+    }   
+
+.search-icon{
+    width: 13px;
+    height: 13px;
+    padding-left: 10px;
+    top: 485px;
+    }
+
+.date-heading{
+    width: 80px;
+    height: 18px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #313131;
+}
+
+.date-form{
+    width: 198px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #F6F6FB;
+    border-radius: 8px;
+}
+.date-form::placeholder {
+    width: 135px;
+    height: 10px;
+    font-family: 'Baloo 2';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* or 150% */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.table-content{
+    padding: 0px 68px 0px 68px;
+   
+}
+
+
+.heading-filters-content{
+font-family: 'Baloo 2';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 18px;
+color: #313131;
+border: 1px solid #F5F6FA;
+
+}
+
+td{
+    border: 1px solid #F5F6FA;
+}
+
+.issue-svg{
+width: 18px;
+height: 18px;
+padding: 3px 3px;
+background: #E82646;
+border-radius: 3px;
+}
+.booking-status-heading{
+font-family: 'Baloo 2';
+height: 20px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #9C9C9C;
+margin-left: 10px;
+
+}
+
+.issue2-svg{
+    width: 18px;
+    height: 18px;
+    padding: 3px 3px;
+    background: #F7B731;
+    border-radius: 3px;
+    }
+.issue3-svg{
+    width: 18px;
+    height: 18px;
+    padding: 3px 3px;
+    background: #09AD95;
+    border-radius: 3px;
+}
+
+#checkbox-purchase{
+    background: #F5F6FA;
+border-radius: 3px;
+}
+#checkbox-purchase:focus{
+    outline: none;
+   
+}
+.form-check-input:focus{
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+input[type="checkbox"]#checkbox-purchase:checked{
+    background-color: #5600E8;
+    border-radius: 3px;
+    
+}
+
+
+/* Filters Content End */
+.button-group{
+    padding: 0px 68px 0px 68px;
+}
+
+.supplier-btn{
+width: 140px;
+height: 40px;
+background: #FFFFFF;
+box-shadow: 3px 3px 5px 3px rgba(205, 214, 243, 0.25);
+border-radius: 10px;
+}
+
+.dropdown-toggle::after{
+    text-align: end;
+    margin-left: 60px;
+}
